@@ -1,7 +1,7 @@
 baseURL = "https://example.com"
 languageCode = "en"
 defaultContentLanguage = "en"
-title = "kirandachiraju.com"
+title = "KeepIt"
 theme = "KeepIt"
 
 paginate = 12
@@ -30,14 +30,19 @@ disqusShortname = "yourdiscussshortname"
     weight = 1
 
   [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 3
+
+  [[menu.main]]
     name = "About"
     url = "/about"
     weight = 4
 
 [params]
-    since = 2018
-    author = ""               # Author's name
-    subtitle = "Hello!! Welcome"       # Subtitle
+    since = 2012
+    author = "Fastbyte01"               # Author's name
+    subtitle = "A Hugo theme"       # Subtitle
     cdn_url = ""           # Base CDN URL
     home_mode = "" # post or other
 
@@ -48,18 +53,18 @@ disqusShortname = "yourdiscussshortname"
     description = "" # site description
     keywords = "" # site keywords
 
-    #license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
 [params.gravatar]
-    email = "dachiraju.kiran@gmail.com"
+    email = ""
 
 [params.social]
-    GitHub = "rajuXkiran"
-    Linkedin = "kiran-kumar-282746102/"
-    Twitter = "raju_kirann"
+    GitHub = "xxxx"
+    Linkedin = "xxxx"
+    Twitter = "xxxx"
     #Instagram = "xxxx"
     #Email   = "xxxx"
-    Facebook = "kirankumardachiraju"
+    Facebook = "xxxx"
     #Telegram = "xxxx"
     #Medium = "xxxx"
     #Gitlab = "xxxx"
@@ -125,10 +130,10 @@ Linkedin = true
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 
 [author]
-  name = ""
+  name = "Fastbyte01"
 
   [params.publisher]
-    name = ""
+    name = "Fastbyte01"
 
     [params.publisher.logo]
       url = "logo.png"
