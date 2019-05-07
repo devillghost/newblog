@@ -22,6 +22,7 @@ To start with SonarQube first you should know about what is Sonar Server and Son
 I’ll start by assuming that you already have Docker installed, otherwise the process is quite simple and can be seen [here](https://docs.docker.com/v17.12/install/).
 
 <h2> Below are the 3 steps we're going to be looking at <h2>
+  
 1) Setting up Sonar Server
 2) Setting up Sonar Runner
 3) Run SonarQube Runner
