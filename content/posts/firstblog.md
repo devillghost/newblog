@@ -20,3 +20,11 @@ Alright, let’s start…
 To start with SonarQube first you should know about what is Sonar Server and Sonar Runner. Sonar Server where the engine that performs the analysis and stores the results, and the analysis must be invoked in some way, which can be done with a client called Sonar Runner aka SonarQube scanner or with a Maven plug-in. You can also integrate the analysis with the IDE that you are using, with a plugin called SonarLint.
 
 I’ll start by assuming that you already have Docker installed, otherwise the process is quite simple and can be seen [here](https://docs.docker.com/v17.12/install/).
+
+<h2> Below are the 3 steps we're going to be looking at <h2>
+1) Setting up Sonar Server
+2) Setting up Sonar Runner
+3) Run SonarQube Runner
+
+  
+  
